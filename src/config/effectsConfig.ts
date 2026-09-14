@@ -40,9 +40,9 @@ export const sakuraConfig: SakuraConfig = {
 		// 垂直移动
 		vertical: {
 			// 垂直移动速度最小值
-			min: 1.5,
+			min: 1.0,
 			// 垂直移动速度最大值
-			max: 2.2,
+			max: 1.7,
 		},
 		// 旋转速度
 		rotation: 0.03,

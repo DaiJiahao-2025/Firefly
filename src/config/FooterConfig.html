@@ -1,1 +1,46 @@
-这里是HTML注入示例，你可以在这个文件中添加自定义的HTML内容
+<div class="footer-icp">
+  <a
+    class="footer-icp-item"
+    target="_blank"
+    rel="noopener noreferrer"
+    href="https://beian.mps.gov.cn/#/query/webSearch?code=13068202000395"
+  >
+    <img class="footer-icp-icon" src="/images/ghs.png" alt="公安备案图标" />
+    冀公网安备13068202000395号
+  </a>
+
+  <a
+    class="footer-icp-item"
+    target="_blank"
+    rel="noopener noreferrer"
+    href="https://beian.miit.gov.cn"
+  >
+    冀ICP备2026024107号-1
+  </a>
+</div>
+
+<style>
+  .footer-icp {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem 1.25rem;
+  }
+
+  .footer-icp-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: inherit;
+  }
+
+  .footer-icp-item:hover {
+    color: var(--primary);
+  }
+
+  .footer-icp-icon {
+    width: 1em;
+    height: 1em;
+  }
+</style>

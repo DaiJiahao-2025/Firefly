@@ -107,18 +107,18 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				{
 					name: "GitHub",
 					icon: "fa7-brands:github",
-					url: "https://github.com/CuteLeaf/Firefly",
+					url: "https://github.com/DaiJiahao-2025",
 					showName: true,
 				},
 				{
 					name: "Email",
 					icon: "fa7-solid:envelope",
-					url: "mailto:xiaye@msn.com",
+					url: "mailto:2803422249@qq.com",
 				},
 				{
 					name: "Sponsor",
 					icon: "material-symbols:favorite",
-					url: "https://blog.cuteleaf.cn/sponsor/",
+					url: "/sponsor/",
 				},
 				{
 					name: "RSS",
